@@ -1,30 +1,26 @@
 body{
     font-family: 'Poppins', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    
     margin: 0;
 }
-section{
-
-}
 .banner-area{
-    margin-bottom:150px;
     display: flex;
+    padding: 82px 42px 0px 100px;
+    margin-bottom: 100px;
 }
-.half-width{
-    width: 50%;
-    padding-left: 100px;
+.banner-left{
+    width: 60%;  
 }
-.half-width h1{
+.banner-left h1{
     font-family: Montserrat;
     font-weight: bold;
     font-size: 60px;
     line-height: 130%;
     letter-spacing: -0.02em;
     width: 600px;
-    padding-top: 260px;
-   
+    padding-top: 80px;
 }
-.half-width p{
+.banner-left p{
     font-family: Montserrat;
     font-weight: 500;
     font-size: 20px;
@@ -44,20 +40,86 @@ section{
     box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
     border-radius: 100px;
 }
+.banner-right{
+    width: 40%;
+}
+.banner-right img{
+    width: 80%;
+}
 .sweet-color{
-    color: coral;
+    color: tomato;
 }
-.half-width img{
-    padding-top: 82px;
-    padding-left: 260px;
-    width: 50%;
-}
-.banner-area2{
+.about-area{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
 }
+.about-left{
+    width: 70%;
+}
+.about-left img{
+    width: 40%;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.about-right{
+    width: 30%;
+    margin: 127px 165px 227px 0px;
+    padding: 20px;
+}
+.about-right h1{
+    font-size: 24px;
+    color: #828282;
+}
+.about-right p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    width: 444px;
+    padding-bottom: 90px;
+}
+.recipies-area{
+    padding: 72px 100px 129px;
+}
+
+.recipis-content{
+    text-align: center;
+    width: 706px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.recipis-content h1{
+    color: #676767;
+
+}
+.recipis-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #252525;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .banner-area3{
     margin-bottom: 150px;
     margin: 0px 100px 150px;
